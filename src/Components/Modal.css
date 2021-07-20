@@ -1,0 +1,70 @@
+.Modal {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.Modal-Card {
+    color: #38475d;
+    left: calc(50vw - 20rem);
+    top: 10vh;
+    position: inherit;
+    height: 80vh;
+    width: 40rem;
+    background-color: white;
+    z-index: 2;
+    padding: 1.5rem 2rem;
+}
+
+.Modal-Card-Title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.Modal-Card-Plan{
+    margin-top: 0.5rem;
+}
+
+.Modal-Card-Plan-Text {
+    font-weight: 600;
+}
+
+.Modal-Card-Plan-Selected::before{
+    content: " ";
+}
+
+.Modal-Card-Form {
+    margin: 1.5rem 0;
+}
+
+.Modal-Card-Form-Submit {
+    cursor:pointer;
+    border: none;
+    background-color: #ee5a36;
+    padding: 1rem;
+    color: white;
+    margin-top: 1rem;
+}
+
+.Modal-Card-Close {
+    position: absolute;
+    right: 1.5rem;
+    top: 2rem;
+    width: 0.75rem;
+    height: 0.75rem;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .Modal-Card {
+        width: calc(100vw - 8rem);
+        left: 4rem;
+    }
+}

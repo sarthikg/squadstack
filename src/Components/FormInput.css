@@ -1,0 +1,48 @@
+.FormInput {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-bottom: 1.2rem;
+    width: 100%;
+}
+
+.FormInput.half{
+    width: calc(50% - 0.5rem);
+}
+
+.FormInput.Spaced {
+    margin-right: 1rem;
+}
+
+.FormInput-Title {
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.FormInput-Box {
+    height: 2.5rem;
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.FormInput-Checkboxes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.Form-Input-Checkboxes-Check {
+    margin-right: 1rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.Form-Input-Checkboxes-Check-Label {
+    margin-left: 0.25rem;
+}
